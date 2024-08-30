@@ -17,7 +17,7 @@
   color: #fff;
   padding: 100px 80px 173px;
   position: relative;
-  z-index: -1;
+  z-index: 1;
   overflow: hidden;
   justify-content: space-between;
 }
@@ -29,19 +29,19 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  z-index: 2;
+  z-index: 3;
   position: relative;
 }
 
 .about__circle {
   width: 426px;
   height: 426px;
-  background-color: #20f0ed;
+  background-color: #1878dc;
   border-radius: 50%;
   position: absolute;
   top: -152px;
   left: -139px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .about__circle_animation_blurred {
@@ -55,7 +55,7 @@
   margin-top: 19px;
   gap: 20px;
   max-width: 660px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .about__paragraph {
